@@ -82,3 +82,8 @@ margin: 27px 0 0 65px;
 height: 285px;
 width: 250px;
 }
+
+/*убрал подчеркивание у кнопок*/
+.buy, .credit{
+text-decoration: none;
+}
