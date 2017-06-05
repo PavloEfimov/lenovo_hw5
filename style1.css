@@ -1,9 +1,15 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
 /*внешняя карточка*/
 .lenovo{
 width: 400px;
 height: 550px;
 position: relative;
 }
+
 /*внутренний блок для рамки*/
 .inner{
 width: 377px;
@@ -13,48 +19,54 @@ position: absolute;
 top: 10px;
 left: 10px;
 }
-.title_one, .title_two, .rassrochka{
+
+.title_one, .title_two, .credit{
 font-family: Tahoma;
 font-size: 22px;
 text-align: center;
 letter-spacing: 1px;
 }
+
 .title_one{
 margin: 10px 1px 0 0;
 }
+
 .title_two{
 margin: -1px -2px 0 0;
 }
+
 /*добавил тень в блок Рассрочка*/
-.rassrochka{
-color: white;
+.credit{
+color: #ffffff;
 background-color: #8bc144;
 display: block;
 width: 188px;
 height: 30px;
 box-shadow: -1px 1px 1px #9c9c9c;
-margin-top: -1px;
-margin-left: -1px;
+margin: -4px 0 0 -1px;
 }
+
 .price{
 font-family: Tahoma;
 font-size: 31px;
 text-align: center;
-margin: -8px -14px 0 0;
+margin: 15px -14px 0 0;
 }
+
 /*добавил тень к тексту*/
-.kupit{
+.buy{
 font-family: Tahoma;
 font-size: 31px;
 display: block;
 width: 228px;
 height: 46px;
-background-color: red;
-color: white;
+background-color: #ff0000;
+color: #ffffff;
 text-align: center;
 margin: 17px 0 0 62px;
 text-shadow: -1px 1px 1px #660000;
 }
+
 /*аналог тени, в исходном psd оформлено отдельным блоком*/
 .bottom{
 background-color: #850000;
@@ -62,12 +74,11 @@ height: 2px;
 width: 227px;
 margin-left: 62px;
 }
+
 /*качество картинки чуть ниже и внизу справа значок лупы, это результат работы хостинга картинок,
 картинка с локальной ссылки смотрится идентично исходнику*/
 img{
-margin-left: 65px;
-margin-top: 27px;
+margin: 27px 0 0 65px;
 height: 285px;
 width: 250px;
-
 }
